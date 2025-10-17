@@ -12,10 +12,10 @@ Run `./llamps/Pre-processing/LLMprocess.py` separately for each of the following
 - `./llamps/Pre-processing/llamps-dataset/positive_examples_anonymous`
 - `./llamps/Pre-processing/llamps-dataset/positive_examples_test`
 
-Note: Modify the `url` and `api_key` in `GPTRank.py` and `GPTAnalyze.py`. These are the interfaces for the large language model.
+Note: Modify the `url` and `api_key` in `GPTRank.py` and `GPTAnalyze.py`. These are the interfaces for the LLM.  
 
 ## Step 3: Dataset Preparation
-Run ```./llamps/Pre-processing/process_sentence_embedding.py```
+Run ```./llamps/Pre-processing/process_sentence_embedding.py```   
 Run ```./llamps/Pre-processing/train_fast_dataset.py```
 
 ## Step 4: Training
